@@ -1,0 +1,91 @@
+body{
+    font-family: Nunito;
+    background-image: url('https://mcdn.wallpapersafari.com/medium/78/89/ESVjk3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    padding-top: 3rem;
+    display: flex;
+}
+
+.retangulo-title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+.Title{
+    display: flex;
+    text-align: center;
+    border-radius: 100px;
+}
+.box {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.box-1{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#esquerdaBox {
+    margin-right: 20px;
+}
+#direitaBox {
+    width: 400px;
+}
+input, select, button {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+li {
+    padding: 1px;
+    border:  solid #000000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.teste{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    display: flex;
+}
+.box-3{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+/* 
+.containerTarefas{
+    border: solid 5px white;
+    display: flex;
+    align-items: center;
+} */

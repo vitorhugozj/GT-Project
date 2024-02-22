@@ -1,0 +1,68 @@
+body {
+    font-family: Nunito;
+    background-image: url('https://mcdn.wallpapersafari.com/medium/78/89/ESVjk3.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-container {
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+.login-container h2 {
+    text-align: center;
+    color: white;
+}
+.login-container input[type="nome"],
+.login-container input[type="senha"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login-container input[type="botao-entrar"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.login-container input[type="botao-entrar"]:hover {
+    background-color: #0056b3;
+}
+.criar-conta {
+    text-align: center;
+    margin-top: 10px;
+}
+.criar-conta a {
+    color: #007bff;
+    text-decoration: none;
+}
+.criar-conta a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
+.login-container {
+    text-align: center;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}

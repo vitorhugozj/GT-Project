@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="addtarefas.css">
+    <script src="./addtarefas.js" defer></script>
+    <title></title>
+</head>
+<body>
+<header>
+
+    <div class="retangulo-title">
+        <div class="Title">
+            <h2> Olá, Seja Bem Vindo (a) ao sistema GT!</h2>
+        </div>
+    </div>
+</header>
+<main>
+    <div id="esquerdaBox" class="box-1">
+        <p>Insira ao lado os dados de suas tarefas:</p>
+           <p>EX:</p>
+           <p>Prova de Matemática</p>
+            <p>Assunto: Geometria</p>
+            <p>20/02/2024</p>
+            
+    </div>
+    
+    <div id="direitaBox">
+        <div class="box">
+            <h1>Adicione suas tarefas</h1>
+            <label for="assuntoTarefa">Assunto:</label>
+            <input type="text" id="assuntoTarefa" placeholder="Digite o assunto">
+
+            <label for="dataTarefa">Data:</label>
+            <input type="date" id="dataTarefa">
+
+            <label for="descricaoTarefa">Descrição:</label>
+            <input type="text" id="descricaoTarefa" placeholder="Digite uma nova tarefa">
+
+            <button onclick="addTask()">Adicionar Tarefa
+            </button>
+        </div>
+
+        
+    </div>
+    <div class="box-3">
+        <p>Minhas tarefas:</p>
+        <div id="listaTarefa"></div>
+    </div>
+    </main>
+</body>
+</html>
